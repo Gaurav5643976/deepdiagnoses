@@ -1,1 +1,1 @@
-web: gunicorn deepdiaganoses.wsgi
+web: gunicorn deepdiagnoses.wsgi
