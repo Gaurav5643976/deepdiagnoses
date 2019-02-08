@@ -41,7 +41,7 @@ class CompanyTests(models.Model):
 
 
 class OrderInfo(models.Model):
-    order_no = models.IntegerField()
+    # order_no = models.IntegerField()
     user_name = models.CharField(max_length=125)
     email_id = models.EmailField()
     age = models.IntegerField()
